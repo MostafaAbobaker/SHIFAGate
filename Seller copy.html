@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>SHIFA Gate</title>
+    <!-- fav icon-->
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon"/>
+    <!-- Font Cairo-->
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,700,900&amp;display=swap" rel="stylesheet"/>
+    <!-- Font Awesome Icon V5-->
+    <link rel="stylesheet" href="css/fontawesomeAll.min.css"/>
+    <!--bootstarp V4-->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css"/>
+    <!-- Main style-->
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body class="user-body">
+    <!-- Start Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container"><a class="navbar-brand" href="#"> <img src="imgs/logo.png" alt=""/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto main-list">
+            <li class=" nav-item "><a class="nav-link" href="index.html">الرئيسية</a></li>
+            <li class=" nav-item "><a class="nav-link" href="Charts.html">المخططات</a></li>
+            <li class=" nav-item "><a class="nav-link" href="Customer.html">المشتري</a></li>
+            <li class=" nav-item "><a class="nav-link" href="requests.html">قائمة الطلبات</a></li>
+            <li class="nav-item  active"><a class="nav-link" href="Seller.html">قائمة البائعين</a></li>
+            <li class=" nav-item "><a class="nav-link" href="settings.html">إعدادات الموقع</a></li>
+          </ul>
+          <ul class="navbar-nav mr-2 my-lg-0 main-exit">
+            <li class="nav-item"><a class="nav-link" href="#">تحديث البيانات <i class="fas fa-sync-alt"> </i></a></li>
+            <li class="nav-item"><a class="nav-link" href="login.html"> خروج <i class="fas fa-sign-out-alt fa-flip-horizontal"> </i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Start users-->
+    <section class="users text-center">
+      <h1>قائمة الموظفين</h1>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <table class="table-bordered">
+              <thead>
+                <tr class="bg-primary">
+                  <th>#</th>
+                  <th>الإسم	</th>
+                  <th>إسم المستخدم	</th>
+                  <th> تعديل / حذف</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>محمد</td>
+                  <td>Sss</td>
+                  <td> <a class="edit" href=""><i class="fas fa-edit fa-lg"></i> تعديل</a><a class="del" href=""><i class="fas fa-trash-alt fa-lg"></i> حذف</a><a class="save" href=""> <i class="fas fa-save fa-lg"></i>  حفظ  </a></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>مبارك</td>
+                  <td>MM</td>
+                  <td> <a class="edit" href=""><i class="fas fa-edit fa-lg"></i> تعديل</a><a class="del" href=""><i class="fas fa-trash-alt fa-lg"></i> حذف</a><a class="save" href=""> <i class="fas fa-save fa-lg"></i>  حفظ  </a></td>
+                </tr>
+              </tbody>
+            </table>
+            <!--.table
+            .row.header.blue
+              .cell
+                | #
+              .cell
+                | الإسم
+              .cell
+                | إسم المستخدم	
+              
+              .cell
+                | تعديل / حذف
+            .row
+              .cell
+                | 1
+              .cell(data-title='الإسم')
+                | محمد
+              .cell(data-title='إسم المستخدم')
+                | Sss
+              .cell
+                a.edit(href="")
+                    i.fas.fa-edit.fa-lg
+                    |  تعديل
+                a.del(href="")
+                  i.fas.fa-trash-alt.fa-lg
+                  |  حذف
+                a.save(href="") 
+                  i.fas.fa-save.fa-lg
+                  |   حفظ  
+            .row
+              .cell
+                | 2
+              .cell(data-title='الإسم')
+                | مبارك
+              .cell(data-title='إسم المستخدم')
+                | MM
+              .cell
+                a.edit(href="")
+                    i.fas.fa-edit.fa-lg
+                    |  تعديل
+                a.del(href="")
+                  i.fas.fa-trash-alt.fa-lg
+                  |  حذف
+                a.save(href="") 
+                  i.fas.fa-save.fa-lg
+                  |   حفظ  
+            
+            
+            
+            
+            
+            -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- jQuery first, then Bootstrap JS , Main JS-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="../js/jquery.tabledit.min.js"></script>
+    <script></script>
+  </body>
+</html>
